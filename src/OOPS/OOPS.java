@@ -18,6 +18,16 @@ import java.util.*;
         }
     }
 
+    class Student{
+        String name;
+        int age;
+
+        public void printInfo(){
+            System.out.println(this.name);
+            System.out.println(this.age);
+        }
+    }
+
 // Creating Object
 public class OOPS{
     public static void main(String args[]){
@@ -32,6 +42,10 @@ public class OOPS{
         
         pen1.printColor();
         pen2.printColor();
+
+
+
+        
     }
 }
 
