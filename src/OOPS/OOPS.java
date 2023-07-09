@@ -44,8 +44,10 @@ public class OOPS{
         pen2.printColor();
 
 
-
-        
+        Student s1 = new Student();
+        s1.name = "Yasin";
+        s1.age = 20;
+        s1.printInfo();
     }
 }
 
