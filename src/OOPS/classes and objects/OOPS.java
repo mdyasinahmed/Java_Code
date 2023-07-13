@@ -1,32 +1,32 @@
 import java.util.*;
 
 // Java - Class
-    class Pen{
-        String color;
-        String type;
+class Pen{
+    String color;
+    String type;
 
-        public void write(){
-            System.out.println("Write Something.");
-        }
-
-        public void printColor(){
-            System.out.println(this.color);
-        }
-
-        public void printType(){
-            System.out.println(this.type);
-        }
+    public void write(){
+        System.out.println("Write Something.");
     }
 
-    class Student{
-        String name;
-        int age;
-
-        public void printInfo(){
-            System.out.println(this.name);
-            System.out.println(this.age);
-        }
+    public void printColor(){
+        System.out.println(this.color);
     }
+
+    public void printType(){
+        System.out.println(this.type);
+    }
+}
+
+class Student{
+    String name;
+    int age;
+
+    public void printInfo(){
+        System.out.println(this.name);
+        System.out.println(this.age);
+    }
+}
 
 // Creating Object
 public class OOPS{
