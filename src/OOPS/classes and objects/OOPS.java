@@ -28,9 +28,22 @@ class Student{
     }
 }
 
+class Cars{
+    String company = "tesla";
+    String OwnerName;
+    int number;
+
+    public void printInfo(){
+        System.out.println(this.company);
+        System.out.println(this.OwnerName);
+        System.out.println(this.number);
+    }
+}
+
 // Creating Object
 public class OOPS{
     public static void main(String args[]){
+        /**
         Pen pen1 = new Pen();
         pen1.color = "blue";
         pen1.type = "gel";
@@ -48,6 +61,12 @@ public class OOPS{
         s1.name = "Yasin";
         s1.age = 20;
         s1.printInfo();
+         */
+        Cars car1 = new Cars();
+
+        car1.OwnerName="Yasin";
+        car1.number=1780;
+        car1.printInfo();
     }
 }
 
