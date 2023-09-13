@@ -1,3 +1,0 @@
-Class Student{
-    Student();
-}
