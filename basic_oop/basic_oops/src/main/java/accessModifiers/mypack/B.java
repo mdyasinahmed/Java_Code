@@ -6,5 +6,7 @@ class B extends A{
         B obj = new B();
         obj.msg();
     }
-
 }
+
+
+
