@@ -9,7 +9,8 @@ class S{
 public class A {
     public static void main(String[] args){
         S obj = new S();
-        //System.out.println(obj.data);
-        //obj.msg
+        //System.out.println(obj.data);  //showing error
+        //obj.msg;    //showing error
     }
 }
+
